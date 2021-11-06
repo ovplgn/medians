@@ -9,6 +9,6 @@ def medians(nums1, nums2):
         m = s[len(s)//2]
     else:
         m= (s[len(s)//2] + s[len(s)//2 - 1]) /2
-    return float(m)
+    return m
 
 print(medians(nums1, nums2))
